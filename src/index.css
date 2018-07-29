@@ -1,0 +1,56 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General rules
+ *
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section {
+	min-height: 100vh;
+	padding-top: 18vh;
+}
+
+/*
+ *
+ * Custom Classes
+ *
+ */
+
+ .h2-style {
+ 	text-align: center;
+ 	padding-bottom: 15px;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+ }
+
+ .nav-color {
+ 	background-color: #000000;
+ }
+
+ .ls {
+ 	letter-spacing: 3px;
+ }
+
+/*
+ *
+ * Overide Bootstrap Classes
+ *
+ */
+ .col-lg-12 {
+ 	padding: 0;
+ }

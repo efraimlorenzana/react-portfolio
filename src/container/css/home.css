@@ -1,0 +1,53 @@
+section#home {
+	position: relative;
+}
+
+h1,h2,h3 {
+	letter-spacing: 4px;
+}
+h2 {
+	text-transform: uppercase;
+}
+
+/*
+ *
+ * Custom Classes
+ *
+ */
+ .bg {
+	background-image: url("../../assets/img/main2.gif");
+	background-size: cover;
+	background-attachment: fixed;
+ }
+ .bg-wrapper {
+ 	background-color: #0017ff42;
+ }
+
+ .job-title {
+ 	border: 3px solid white;
+ 	padding: 10px 20px;
+ 	border-radius: 50px;
+ }
+
+ .img-lg-frame {
+ 	background-color: #00000005;
+ 	color: white;
+ 	height: 80%;
+ 	width: 30%;
+ 	position: absolute;
+ 	right: 10%;
+ 	bottom: 10%;
+ 	z-index: 1;
+ }
+
+ .drop-shadow {
+    box-shadow: -11px 13px 18px 4px black;
+ }
+
+ .footer {
+ 	position: absolute;
+ 	min-height: 60%;
+ 	background: linear-gradient(#000000,red);
+ 	width: 100%;
+ 	bottom: 0;
+ }

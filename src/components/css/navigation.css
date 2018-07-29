@@ -1,0 +1,26 @@
+a.navbar-brand {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+img#imgLogo {
+	width: 15vh;
+}
+
+ul.navbar-nav {
+	margin: 0 auto;
+}
+
+ul.navbar-nav > li {
+	margin: 0 20px;
+	text-align: center;
+}
+
+ul.navbar-nav > li > a {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+button.navbar-toggler {
+    margin-right: 15px;
+}
