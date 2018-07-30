@@ -1,14 +1,28 @@
 import React, { Component } from 'react';
 import './css/mywork.css';
 import Project from '../components/js/project';
+import { projects } from '../assets/data/UserInfo';
 
 class MyWork extends Component {
+	constructor() {
+		super()
+		this.state = [
+			{
+				mywork: projects
+			}
+		];
+	}
 	render() {
+		let { mywork } = this.state; 
 		const element = (
-			<section id="mywork" class="row">
+			<section id="mywork" className="row">
 				<div className="col-lg-12">
 					<h2 className="h2-style">My Work</h2>
-					<Project />
+					<div className="gallery">
+						{
+							mywork.map((p,i) => <Project key={i} data={p} />)
+						}
+					</div>
 				</div>
 			</section>
 		);

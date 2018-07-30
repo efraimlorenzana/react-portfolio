@@ -1,0 +1,8 @@
+div#project {
+	background-color: yellow;
+	margin: 10px;
+}
+
+div.details {
+	padding: 10px;
+}

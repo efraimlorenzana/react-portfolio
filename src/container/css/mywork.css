@@ -1,3 +1,4 @@
-section#mywork {
-	background-color: skyblue;
+div.gallery {
+	display: flex;
+	flex-wrap: wrap;
 }

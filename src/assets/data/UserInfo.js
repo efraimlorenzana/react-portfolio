@@ -59,3 +59,12 @@ export const skills = [
 		progress : "95"
 	},
 ];
+
+export const projects = [
+	{
+		title: "Empty",
+		description: "please upload new project",
+		tech: "Not Applicable",
+		site: ""
+	}
+];
