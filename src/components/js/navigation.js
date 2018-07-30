@@ -4,6 +4,7 @@ import '../css/navigation.css';
 import Home from '../../container/home';
 import Professional from '../../container/professional';
 import About from '../../container/about';
+import MyWork from '../../container/mywork';
 
 const Navigation = () => {
 	const element = (
@@ -20,25 +21,25 @@ const Navigation = () => {
 					  <div className="collapse navbar-collapse" id="navbarNav">
 					    <ul className="navbar-nav mr-3">
 					      <li className="nav-item">
-					      	<Link className="nav-link" to="/">Home</Link>
+					      	<Link className="nav-link" to="/react-portfolio">Home</Link>
 					      </li>
 					      <li className="nav-item">
-					      	<Link className="nav-link" to="/professional">Skills</Link>
+					      	<Link className="nav-link" to="/react-portfolio/professional">Skills</Link>
 					      </li>
 					      <li className="nav-item">
-					      	<Link className="nav-link" to="/portfolio">Portfolio</Link>
-					      </li>
-
-					      <li className="nav-item">
-					      	<Link className="nav-link" to="/experience">Experience</Link>
+					      	<Link className="nav-link" to="/react-portfolio/portfolio">Portfolio</Link>
 					      </li>
 
 					      <li className="nav-item">
-					      	<Link className="nav-link" to="/technology">Technology</Link>
+					      	<Link className="nav-link" to="/react-portfolio/experience">Experience</Link>
 					      </li>
 
 					      <li className="nav-item">
-					      	<Link className="nav-link" to="/about">About</Link>
+					      	<Link className="nav-link" to="/react-portfolio/technology">Technology</Link>
+					      </li>
+
+					      <li className="nav-item">
+					      	<Link className="nav-link" to="/react-portfolio/about">About</Link>
 					      </li>
 					    </ul>
 					  </div>
@@ -46,9 +47,10 @@ const Navigation = () => {
 				</div>
 
 				<div>
-					<Route exact path="/" component={Home} />
-					<Route path="/about" component={About} />
-					<Route path="/professional" component={Professional} />
+					<Route exact path="/react-portfolio" component={Home} />
+					<Route exact path="/react-portfolio/about" component={About} />
+					<Route exact path="/react-portfolio/professional" component={Professional} />
+					<Route exact path="/react-portfolio/portfolio" component={MyWork} />
 				</div>
 			</div>
 		</Router>

@@ -7,7 +7,7 @@ const MailMe = () => {
 			<h5 className="text-center">Message Me</h5>
 			<form>
 				<input className="form-control mb-2" type="text" placeholder="Enter Email Address" />
-				<textarea className="form-control mb-2" placeholder="Enter Message here..."></textarea>
+				<textarea id="txtMessage" className="form-control mb-2" placeholder="Enter Message here..."></textarea>
 				<div className="text-center pb-2">
 					<input className="btn btn-primary w-75" type="submit" value="Send" />
 				</div>

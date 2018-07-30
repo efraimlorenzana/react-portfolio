@@ -24,11 +24,11 @@ const Contact = () => {
 				</ul>
 
 				<ul className="social mt-4">
-					<li><a href="#"><i className="fab fa-facebook-f fa-2x"></i></a></li>
-					<li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
-					<li><a href="#"><i class="fab fa-codepen fa-2x"></i></a></li>
-					<li><a href="#"><i class="fab fa-gitlab fa-2x"></i></a></li>
-					<li><a href="#"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
+					<li><a id="fb" href="https://www.facebook.com/strife08" target="_blank"><i className="fab fa-facebook-f fa-2x"></i></a></li>
+					<li><a id="gh" href="https://www.github.com/efraimlorenzana" target="_blank"><i className="fab fa-github fa-2x"></i></a></li>
+					<li><a id="cp" href="https://codepen.io/efraimlorenzana/" target="_blank"><i className="fab fa-codepen fa-2x"></i></a></li>
+					<li><a id="gl" href="https://gitlab.com/efraim.lorenzana" target="_blank"><i className="fab fa-gitlab fa-2x"></i></a></li>
+					<li><a id="li" href="https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/" target="_blank"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
 				</ul>
 			</div>
 

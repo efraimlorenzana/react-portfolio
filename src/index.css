@@ -14,16 +14,16 @@
  * General rules
  *
  */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: 'Orbitron', sans-serif;
+ }
 
-section {
-	min-height: 100vh;
-	padding-top: 18vh;
-}
+ section {
+ 	min-height: 100vh;
+ 	padding-top: 18vh;
+ }
 
 /*
  *
@@ -53,4 +53,97 @@ section {
  */
  .col-lg-12 {
  	padding: 0;
+ }
+
+ /*
+ *
+ * Media View Manipulation
+ *
+ */
+
+ /* ----- Tablet View ----------*/
+ @media only screen and (min-width: 601px) and (max-width: 960px) {
+ 	section#home > div > div > h6.m-head {
+ 		margin-top: 1em;
+ 	}
+ 	section#home > div > div.img-lg-frame {
+ 		background-color: #00000005;
+ 		color: white;
+ 		width: 20%;
+ 		position: absolute;
+ 		right: 50%;
+ 		bottom: 0;
+ 		z-index: 0;
+ 		transform: translate(50%,0);
+ 	}
+ 	section#home > div > div > img.drop-shadow {
+ 		box-shadow: 0 0 0 0 #00000003;
+ 		border-radius: 50%;
+ 		border: 3px solid white;
+ 		padding: 10px;
+ 	}
+
+ 	div#contact > div > ul.social {
+ 		text-align: center;
+ 		position: static;
+ 	}
+ 	div#contact > div > ul > li {
+ 		text-align: center;
+ 	}
+
+ 	div#mailme > form {
+ 		margin: 0 5em;
+ 	}
+ }
+
+ /* ----- Mobile View ----------*/
+ @media only screen and (max-width: 600px) {
+ 	section#home > div > div.img-lg-frame {
+ 		background-color: #00000005;
+ 		color: white;
+ 		min-height: 10%;
+ 		width: 100%;
+ 		position: static;
+ 		right: 5%;
+ 		bottom: 0;
+ 		z-index: 0;
+ 		transform: translate(0,0);
+ 	}
+ 	section#home > div > div > img {
+ 		border-radius: 0;
+ 	}
+ 	section#home > div > div.footer {
+ 		position: static;
+ 		background-color: yellow;
+ 		padding-top: 15px;
+ 	}
+ 	section#home > div > div > h5 {
+ 		font-size: 1em;
+ 	}
+ 	section#home > div > div > h1 > span.job-title {
+ 		letter-spacing: 5px;
+ 		color: yellow;
+ 		border: none;
+ 		padding: 0;
+ 	}
+
+ 	div#contact > div > ul.social {
+ 		position: static;
+ 		margin: 0 auto;
+ 	}
+ 	div#contact > div > ul > li {
+ 		text-align: center;
+ 	}
+ 	div#contact > div > ul > li > span.ls {
+ 		letter-spacing: 1px;
+ 	}
+
+ 	div#mailme > h5 {
+ 		margin-top: 2rem;
+ 	}
+
+ 	/* ----- Custom CLasses -----*/
+ 	section#home > div > div > h6.m-head {
+ 		margin-top:1rem;
+ 	}
  }
