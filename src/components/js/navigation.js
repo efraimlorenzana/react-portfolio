@@ -5,6 +5,7 @@ import Home from '../../container/home';
 import Professional from '../../container/professional';
 import About from '../../container/about';
 import MyWork from '../../container/mywork';
+import Technology from '../../container/tech';
 
 const Navigation = () => {
 	const element = (
@@ -27,7 +28,7 @@ const Navigation = () => {
 					      	<Link className="nav-link" to="/react-portfolio/professional">Skills</Link>
 					      </li>
 					      <li className="nav-item">
-					      	<Link className="nav-link" to="/react-portfolio/portfolio">Portfolio</Link>
+					      	<Link className="nav-link" to="/react-portfolio/my_work">Portfolio</Link>
 					      </li>
 
 					      <li className="nav-item">
@@ -50,7 +51,8 @@ const Navigation = () => {
 					<Route exact path="/react-portfolio" component={Home} />
 					<Route exact path="/react-portfolio/about" component={About} />
 					<Route exact path="/react-portfolio/professional" component={Professional} />
-					<Route exact path="/react-portfolio/portfolio" component={MyWork} />
+					<Route exact path="/react-portfolio/my_work" component={MyWork} />
+					<Route exact path="/react-portfolio/technology" component={Technology} />
 				</div>
 			</div>
 		</Router>

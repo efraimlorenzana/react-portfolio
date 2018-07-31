@@ -20,9 +20,22 @@
  	font-family: 'Orbitron', sans-serif;
  }
 
+ body::-webkit-scrollbar {
+    width: 1px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: red;
+  outline: 1px solid slategrey;
+}
+
  section {
  	min-height: 100vh;
- 	padding-top: 18vh;
+ 	padding-top: 15vh;
  }
 
 /*
@@ -33,6 +46,7 @@
 
  .h2-style {
  	text-align: center;
+ 	padding-top: 15px;
  	padding-bottom: 15px;
  	text-transform: uppercase;
  	letter-spacing: 3px;
@@ -45,15 +59,30 @@
  .ls {
  	letter-spacing: 3px;
  }
+	
+ .clear:before {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
 
 /*
  *
  * Overide Bootstrap Classes
  *
  */
- .col-lg-12 {
- 	padding: 0;
+ .container-fluid {
+ 	padding-left: 0;
+ 	padding-right: 0;
  }
+
+.row {
+	margin: 0;
+}
+
+.col-lg-12 {
+	padding: 0;
+}
 
  /*
  *

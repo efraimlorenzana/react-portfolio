@@ -1,0 +1,15 @@
+section#about {
+	background-image: url('../../assets/img/about.jpg');
+	background-size: cover;
+	color: white;
+}
+
+section#about img {
+	width: 200px;
+	margin: 0 auto;
+	border: 3px solid white;
+}
+
+.bg-wrapper-darker {
+	background: linear-gradient(black,#ff6700f0,#ff000073,#00800094,#000000f0);
+}

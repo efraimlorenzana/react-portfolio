@@ -1,8 +1,24 @@
 div#project {
-	background-color: yellow;
-	margin: 10px;
+	background-color: #000000cc;
+	margin: 15px;
+	width: 26em;
+	color: #3de82a;
+	/*border: 1px solid blue;*/
+	text-align: justify;
+	font-family: 'Inconsolata', monospace;
+}
+
+img#site {
+	width: 100%;
+	border: 1px solid white;
 }
 
 div.details {
 	padding: 10px;
+}
+
+div#btn {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

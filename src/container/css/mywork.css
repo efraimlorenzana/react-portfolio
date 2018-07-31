@@ -1,4 +1,16 @@
+section#mywork {
+	background-image: url('../../assets/img/main3.gif');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 div.gallery {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* ----- Custom Classes ----- */
+section#mywork .h2-style {
+	color: white;
 }
