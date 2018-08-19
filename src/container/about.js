@@ -4,9 +4,9 @@ import './css/about.css';
 
 class About extends React.Component {
 	render() {
-		let indent = {
-			textIndent : '5em'
-		}
+		// let indent = {
+		// 	textIndent : '5em'
+		// }
 		const element = (
 			<section id="about" className="row px-lg-5 px-md-3 pb-lg-5 pb-md-3 px-sm-1">
 				<div className="col-lg-12 bg-wrapper-darker">

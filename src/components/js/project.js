@@ -3,7 +3,7 @@ import '../css/project.css';
 
 const Project = ({data}) => {
 	let caption = data.site !== '#' ? <i className="fas fa-eye fa-2x"></i> : <i className="fas fa-eye-slash fa-2x"></i>;
-	let tooltip = data.site !== '#' ? 'Preview Available' : 'No Preview Available';
+	let tooltip = data.site !== '#' ? 'Live Preview Available' : 'No Preview Available';
 	const element = (
 		<div id="project" className="ls position-relative">
 			<div>
@@ -17,6 +17,7 @@ const Project = ({data}) => {
 				<h6 className="text-center">{data.tech}</h6>
 			</div>
 			<div id="btn" className="text-center p-3">
+				<a className="text-success mr-2" href={`${data.github}`} target="_blank" ><i class="fab fa-github fa-2x"></i></a>
 				<a className="text-danger" data-toggle="tooltip" title={`${tooltip}`} data-placement="bottom" target="_blank" href={data.site}>{caption}</a>
 			</div>
 		</div>

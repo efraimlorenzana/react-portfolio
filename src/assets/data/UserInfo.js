@@ -16,11 +16,11 @@ export const skills = [
 	},
 	{
 		lang : "PHP / Laravel",
-		progress : "1"
+		progress : "60"
 	},
 	{
 		lang : "MySQL",
-		progress : "10"
+		progress : "60"
 	},
 	{
 		lang : "SSMS 2014",
@@ -28,7 +28,7 @@ export const skills = [
 	},
 	{
 		lang : "React",
-		progress : "30"
+		progress : "55"
 	},
 	{
 		lang : "ASP.Net (MVC)",
@@ -66,6 +66,7 @@ export const projects = [
 		description: "This Project is a Real Estate Website",
 		tech: "HTML5 / CSS3",
 		site: "https://efraimlorenzana.github.io/dreamlife/",
+		github: "https://github.com/efraimlorenzana/dreamlife",
 		img : "dreamlife.png"
 	},
 	{ // Capstone 2
@@ -73,6 +74,7 @@ export const projects = [
 		description: "Under Construction",
 		tech: "PHP",
 		site: "#",
+		github: "#",
 		img : "new.jpg"
 	},
 	{ // Capstone 3
@@ -80,6 +82,7 @@ export const projects = [
 		description: "Under Construction",
 		tech: "Laravel/MariaDB",
 		site: "#",
+		github: "#",
 		img : "new.jpg"
 	},
 	{ // robot-friends
@@ -87,6 +90,7 @@ export const projects = [
 		description: "This is simple and interactive static page of robot friends profiles",
 		tech: "React/JSX/CSS3",
 		site: "https://efraimlorenzana.github.io/robot-friends/",
+		github: "https://github.com/efraimlorenzana/robot-friends",
 		img : "robot-friends.png"
 	},
 	{ // Gradient-BG Generator
@@ -94,6 +98,7 @@ export const projects = [
 		description: "Simple tool to generate Gradient BG-color",
 		tech: "Javascript/CSS3",
 		site: "https://efraimlorenzana.github.io/gradient2/",
+		github: "https://github.com/efraimlorenzana/gradient2",
 		img : "gradient.png"
 	},
 	{ // Number to Word
@@ -101,13 +106,23 @@ export const projects = [
 		description: "A simple web app that convert Amount in words",
 		tech: "Javascript/jQuery",
 		site: "https://efraimlorenzana.github.io/mod05-12/",
+		github: "https://github.com/efraimlorenzana/mod05-12",
 		img : "numtoword.jpg"
+	},
+	{ // Smart Brain
+		title: "Smart-Brain",
+		description: "Web app that uses Clarifai API to detect face",
+		tech: "React, Nodejs, postgreSQL",
+		site: "https://em-smart-brain.herokuapp.com/",
+		github: "https://github.com/efraimlorenzana/smart-brain",
+		img : "smart-brain.png"
 	},
 	{ // New Project Template
 		title: "Empty",
 		description: "please upload new project",
 		tech: "Not Applicable",
 		site: "#",
+		github: "#",
 		img : "new.jpg"
 	},
 ];
@@ -134,6 +149,10 @@ export const tech_app = [
 		img: "mysql.png"
 	},
 	{
+		app: "PostgreSQL",
+		img: "postgresql.png"
+	},
+	{
 		app: "PHP",
 		img: "php.png"
 	},
@@ -152,5 +171,13 @@ export const tech_app = [
 	{
 		app: "Visual Basic 6",
 		img: "vb6.png"
+	},
+	{
+		app: "Visual Basic for Application",
+		img: "vba.png"
+	},
+	{
+		app: "Excel Macros",
+		img: "macro.png"
 	},
 ];
