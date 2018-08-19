@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.b137d862.css",
   "main.css.map": "static/css/main.b137d862.css.map",
-  "main.js": "static/js/main.1edd5dc0.js",
-  "main.js.map": "static/js/main.1edd5dc0.js.map",
+  "main.js": "static/js/main.fb0d7ba3.js",
+  "main.js.map": "static/js/main.fb0d7ba3.js.map",
   "static\\media\\about.jpg": "static/media/about.a4efea89.jpg",
   "static\\media\\circle.gif": "static/media/circle.56966d23.gif",
   "static\\media\\dreamlife.png": "static/media/dreamlife.8fa72517.png",
@@ -10,6 +10,7 @@
   "static\\media\\gradient.png": "static/media/gradient.890f8dd0.png",
   "static\\media\\html.png": "static/media/html.664a8c00.png",
   "static\\media\\js.png": "static/media/js.7abbd9a5.png",
+  "static\\media\\macro.png": "static/media/macro.4dbe23cc.png",
   "static\\media\\main.jpg": "static/media/main.5cc61138.jpg",
   "static\\media\\main3.gif": "static/media/main3.881563d6.gif",
   "static\\media\\me.jpg": "static/media/me.fb3fc347.jpg",
@@ -17,7 +18,10 @@
   "static\\media\\numtoword.jpg": "static/media/numtoword.bf188b59.jpg",
   "static\\media\\php.png": "static/media/php.bd7ab574.png",
   "static\\media\\pic.jpg": "static/media/pic.4ea90aed.jpg",
+  "static\\media\\postgresql.png": "static/media/postgresql.37c3f358.png",
   "static\\media\\react.png": "static/media/react.04557c1b.png",
   "static\\media\\robot-friends.png": "static/media/robot-friends.aeabe9fc.png",
-  "static\\media\\vb6.png": "static/media/vb6.e14b8eab.png"
+  "static\\media\\smart-brain.png": "static/media/smart-brain.35651461.png",
+  "static\\media\\vb6.png": "static/media/vb6.e14b8eab.png",
+  "static\\media\\vba.png": "static/media/vba.b2235217.png"
 }
