@@ -1,6 +1,37 @@
 export const personal = {
 	fullname : "Efraim A. Lorenzana",
-	firstname : "Efraim"
+	email : "efraim.lorenzana@gmail.com",
+	contact : [
+		"Smart: +639125916099",
+		"Globe: +639060082533"
+	],
+	social : [
+		{
+			url : "https://www.facebook.com/strife08",
+			alias : "fb",
+			favicon : "fa-facebook-f"
+		},
+		{
+			url : "https://www.github.com/efraimlorenzana",
+			alias : "gh",
+			favicon : "fa-github"
+		},
+		{
+			url : "https://codepen.io/efraimlorenzana/",
+			alias : "cp",
+			favicon : "fa-codepen"
+		},
+		{
+			url : "https://gitlab.com/efraim.lorenzana",
+			alias : "gl",
+			favicon : "fa-gitlab"
+		},
+		{
+			url : "https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/",
+			alias : "li",
+			favicon : "fa-linkedin-in"
+		}
+	]
 }
 
 export const bio = 'Efraim is now a certified web developer, he recently graduated in TUITT Boothcamp Phillippines. But before he enroll in Tuitt, coding is already in his blood and passion. He was a graduate of Computer System Design and Programming, a 2 years laderize course offered at AMA Computer Learning Center back in 2009-2011. Because of his outstanding performance, he was awarded a certificate "Programmer of the Year". He was also the passer of TESDA Object-Oriented Programming Competency Certification NCIV in 2011. He used to be a windows application programmer and web designer in private sector before he shift to Material/Asset Management and later on, in HR Industry. In his spare time, he practice his coding skills, he also love playing games like chess and playing guitar. For him, coding is life and learning is limitless. he is now pursuing the 2nd chance for his career in IT Industry. In this page, you can find CONTACT section to reach him.';

@@ -29,7 +29,7 @@ export default class Home extends Component {
 					<div className="footer">
 						<div className="col-lg-7 col-md-12 col-sm-12 px-lg-5">
 							<h3 className="h2-style my-3">Contact Me</h3>
-							<Contact />
+							<Contact info={personal} />
 						</div>
 					</div>
 				</div>
