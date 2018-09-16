@@ -14,7 +14,7 @@ const Navigation = () => {
 				<div className="row">
 					<nav className="navbar navbar-expand-lg navbar-dark nav-color col-lg-12 fixed-top">
 					  <a className="navbar-brand" href="/">
-					  	<img id="imgLogo" src={require("../../assets/img/circle.gif")} />
+					  	<img id="imgLogo" src={require("../../assets/img/circle.gif")} alt='' />
 					  </a>
 					  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					    <span className="navbar-toggler-icon"></span>

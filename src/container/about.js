@@ -12,7 +12,7 @@ class About extends React.Component {
 				<div className="col-lg-12 bg-wrapper-darker">
 					<h2 className="h2-style mt-3">About me</h2>
 					<div className="float-lg-left float-md-left ml-2 ml-lg-5 ml-md-3 mr-3 mb-3 text-center">
-						<img alt="my picture" src={require("../assets/img/pic.jpg")} />
+						<img src={require("../assets/img/pic.jpg")} alt='' />
 					</div>
 					<p className=" px-2 px-lg-5 px-md-4 text-justify ls">{bio}</p>
 				</div>

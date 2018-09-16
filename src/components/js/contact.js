@@ -6,7 +6,7 @@ const Contact = ({info}) => {
 	const List = ({data}) => (
 		<li>
 			<i className="fas fa-phone"></i>
-			<span className="ls"> {data}</span>
+			<span className="ls"> {data.network} : {data.cp_number}</span>
 	   </li>
 	   );
 	const Social = ({id,url,icon}) => (
@@ -22,7 +22,7 @@ const Contact = ({info}) => {
 				<ul id="contactDetails">
 					<li>
 						<i className="far fa-envelope"></i>
-						<span className="ls"> {info.email}</span>
+						<span className="ls"> {info.user.email}</span>
 					</li>
 					{
 						info.contact.map((e,i) => <List key={i} data={e} />)
@@ -32,12 +32,12 @@ const Contact = ({info}) => {
 
 				<ul className="social mt-4">
 					{
-						info.social.map((e,i) => {
+						info.social.map((s,i) => {
 							return <Social 
-								key={i}
-								id={e.alias} 
-								url={e.url} 
-								icon={e.favicon}
+								key={s.id}
+								id={s.alias} 
+								url={s.url} 
+								icon={s.favicon}
 							/>
 						})
 					}
