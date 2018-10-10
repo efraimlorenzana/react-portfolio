@@ -101,12 +101,12 @@ export const projects = [
 		img : "dreamlife.png"
 	},
 	{ // Capstone 2
-		title: "Capstone 2",
-		description: "Under Construction",
+		title: "Easy Market",
+		description: "E-Commerce Website",
 		tech: "PHP",
-		site: "#",
+		site: "https://easymarketinformation.000webhostapp.com/",
 		github: "#",
-		img : "new.jpg"
+		img : "easymarket.jpg"
 	},
 	{ // Capstone 3
 		title: "Capstone 3",
