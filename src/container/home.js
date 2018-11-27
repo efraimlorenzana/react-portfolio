@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/home.css';
-import { bio } from '../assets/data/UserInfo';
+import { bio, personal } from '../assets/data/UserInfo';
 import Contact from '../components/js/contact';
 import { SERVER_URL } from '../server';
 
@@ -8,7 +8,7 @@ export default class Home extends Component {
 	constructor() {
 		super();
 		this.state = {
-			info: '',
+			info: personal,
 			about: bio
 		};
 	}
@@ -21,9 +21,13 @@ export default class Home extends Component {
 			})
 		})
 		.then(data => data.json())
-		.then(res => this.setState({info:res}))
+		.then(res => {
+			this.setState({info:res})
+			// console.log(res);
+		})
 		.catch(res => this.setState({info:res}));
 		// this.setState({info: personal})
+		// console.log(personal);
 	}
 	render() {
 		const {info} = this.state;

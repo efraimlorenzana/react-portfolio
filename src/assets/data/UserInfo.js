@@ -108,13 +108,13 @@ export const projects = [
 		github: "#",
 		img : "easymarket.jpg"
 	},
-	{ // Capstone 3
-		title: "Capstone 3",
-		description: "Under Construction",
-		tech: "Laravel/MariaDB",
-		site: "#",
-		github: "#",
-		img : "new.jpg"
+	{ // 201 File Management system
+		title: "201 File Management System",
+		description: "Simple tools to manage employees files online",
+		tech: "Laravel/PHP",
+		site: "http://enigmatic-bayou-59678.herokuapp.com/",
+		github: "https://github.com/efraimlorenzana/hr-fms",
+		img : "hr-fms.jpg"
 	},
 	{ // robot-friends
 		title: "Robo-Friends",
